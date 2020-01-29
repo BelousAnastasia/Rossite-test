@@ -1,0 +1,110 @@
+body * {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+}
+
+.carousel-section button,
+.carousel-section button:focus,
+.carousel-section button:active{
+	box-shadow: none !important;
+	outline: none;
+}
+
+.carousel-section .carousel img {
+	width: 100%;
+}
+
+.carousel-section .btn-orange {
+	background-color: #ff891e;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 2px;
+	font-size: calc((100vw - 360px)/(2560 - 360) * (16 - 13) + 13px);
+	padding: 11px 30px 10px;
+	border: 0;
+}
+
+.carousel-section .carousel .carousel-caption {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	bottom: auto;
+	right: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1;
+}
+
+.carousel-section .carousel .carousel-caption h1,
+.carousel-section .carousel .carousel-caption p {
+	color: #000;
+	margin-bottom: 8px;
+}
+
+.carousel-section .carousel .carousel-caption h1 {
+	font-size: calc((100vw - 360px)/(2560 - 360) * (42 - 18) + 18px);
+	overflow: hidden;
+}
+
+.carousel-section .carousel .carousel-caption p {
+	font-size: calc((100vw - 360px)/(2560 - 360) * (26 - 14) + 14px);
+}
+
+.carousel-section .carousel .carousel-caption h1~p:nth-of-type(1) {
+	display: none;
+}
+
+.carousel-section .buttons {
+	margin-top: 19px;
+}
+
+.carousel-section .buttons .btn-border {
+	background-color: transparent;
+	text-transform: uppercase;
+	border-radius: 2px;
+	font-size: calc((100vw - 360px)/(2560 - 360) * (16 - 13) + 13px);
+	padding: 11px 30px 10px;
+	border: 1px solid #000;
+	display: none;
+}
+
+.carousel-section .buttons .btn:first-of-type {
+	margin-right: 20px;
+}
+
+.carousel-section .carousel-indicators li div {
+	display: none;
+}
+
+.carousel-section .carousel-indicators li {
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid #000;
+}
+
+.carousel-section .carousel-indicators .active {
+	background-color: #000;
+}
+
+.carousel-section .carousel-control-next,
+.carousel-section .carousel-control-prev {
+	display: none;
+}
+
+.carousel-section .start-demo{
+	background-color: #c4cdd6;
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
