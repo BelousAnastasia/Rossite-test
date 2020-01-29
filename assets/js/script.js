@@ -1,5 +1,7 @@
 function startDemo(){
-    $('.start-demo').fadeOut('slow');
+    setTimeout(function(){
+      $('.start-demo').fadeOut('slow');
+    }, 5000);
 }
 
 $(window).resize(function(){
